@@ -1,4 +1,4 @@
-package com.nimbletest.app
+package com.nimbletest.app.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
