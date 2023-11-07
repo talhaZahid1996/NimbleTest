@@ -1,3 +1,33 @@
 <resources>
+    <!-- Common -->
     <string name="app_name">NimbleTest</string>
+    <string name="generic_error_message">Oh no! something went wrong please, try again later.</string>
+    <string name="generic_empty_message">No Surveys to show please, try again later.</string>
+    <string name="btn_retry">Retry</string>
+    <string name="ok_label">OK</string>
+    <string name="notification_channel_name">Nimble Survey Notification Channel</string>
+    <string name="notification_channel_description">Notification Channel for password request</string>
+    <!-- Survey Details -->
+    <string name="survey_details_name_label">Survey Name</string>
+    <string name="survey_details_description_label">Survey Description</string>
+    <string name="survey_details_btn_start_survey">Start Survey</string>
+    <!-- Login -->
+    <string name="log_in_btn">Log in</string>
+    <string name="login_forgot_btn">Forgot?</string>
+    <string name="login_password_placeholder">Password</string>
+    <string name="login_email_placeholder">Email</string>
+    <string name="login_please_enter_a_valid_email_error_label">Please enter a valid email</string>
+    <!-- Forgot Password -->
+    <string name="forgot_password_email_placeholder">Email</string>
+    <string name="forgot_password_please_enter_a_valid_email_error_label">Please enter a valid email</string>
+    <string name="forgot_password_btn_reset_label">Reset</string>
+    <string name="forgot_password_disclaimer_message">Enter your email to receive instructions for resetting your password.</string>
+    <string name="forgot_password_notification_title">Check your email</string>
+    <string name="forgot_password_notification_message">We’ve email you instructions to reset  your password.</string>
+    <!-- Home -->
+    <string name="home_today_label">Today</string>
+    <string name="btn_cancel_label">Cancel</string>
+    <string name="home_screen_logout_label">Logout</string>
+    <string name="home_screen_logout_confirmation">Are you sure you want to logout?</string>
+    <string name="home_screen_btn_logout_label">Logout</string>
 </resources>
