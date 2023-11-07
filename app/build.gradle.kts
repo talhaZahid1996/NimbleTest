@@ -22,12 +22,12 @@ android {
             useSupportLibrary = true
         }
 
-        // Get the API keys from properties
-//        buildConfigField("String", "NIMBLE_KEY", project.findProperty("nimbleKey") as String)
-//        buildConfigField("String", "NIMBLE_SECRET", project.findProperty("nimbleSecret") as String)
-//        buildConfigField("String", "NIMBLE_BASE_URL", project.findProperty("nimbleBaseUrl") as String)
-//        buildConfigField("String", "NIMBLE_BIOMETRIC_KEY", project.findProperty("nimbleBiometricKey") as String)
-//        buildConfigField("String", "NIMBLE_DATA_STORE_KEY", project.findProperty("dataStoreKey") as String)
+//         Get the API keys from gradle.properties
+        buildConfigField("String", "NIMBLE_KEY", project.findProperty("nimbleKey") as String)
+        buildConfigField("String", "NIMBLE_SECRET", project.findProperty("nimbleSecret") as String)
+        buildConfigField("String", "NIMBLE_BASE_URL", project.findProperty("nimbleBaseUrl") as String)
+        buildConfigField("String", "NIMBLE_BIOMETRIC_KEY", project.findProperty("nimbleBiometricKey") as String)
+        buildConfigField("String", "NIMBLE_DATA_STORE_KEY", project.findProperty("dataStoreKey") as String)
 
     }
 
