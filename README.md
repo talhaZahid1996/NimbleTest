@@ -55,6 +55,13 @@ Follow these steps to run the Android Kotlin Test Project on your local machine:
 
 5. Explore the implemented features and functionalities as described above.
 
+## Note
+To access the production server, please use your API key and API secret. Additionally, you can use the following login credentials to access the application:
+
+Login Email: a@bc.com
+Password: 112233
+
+
 ## Troubleshooting
 
 If you encounter any issues while setting up or running the project, please feel free to open an issue on this GitHub repository, and we will do our best to assist you.
