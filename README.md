@@ -44,7 +44,7 @@ Follow these steps to run the Android Kotlin Test Project on your local machine:
 1. Clone this repository to your local machine:
 
    ```
-   git clone [https://github.com/talhaZahid1996/NimbleTest/](https://github.com/talhaZahid1996/NimbleTest.git)
+   git clone https://github.com/talhaZahid1996/NimbleTest.git
    ```
 
 2. Open the project in Android Studio or your preferred Android development environment.
